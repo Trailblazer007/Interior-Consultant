@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    background-color: #181719;
+    color: white;
+}
+
+p{
+    margin: 0;
+}
+
+.container{
+    width:  80%;
+    margin: 0 auto;
+    margin-top: 46px;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.left_title{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 0px 8px;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.navbar{
+    display:flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.navbar ul {
+    display: inline-flex;
+    gap: 65px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navbar>ul>li {
+    border-bottom: 2px solid transparent;
+    padding-bottom: 8px;
+    width: auto;
+}
+
+.navbar ul li:hover {
+    border-bottom: 2px solid white;    
+}
+
+main{
+    margin-top: 120px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.left_side{
+    max-width: 410px;
+    margin: auto 0px;
+}
+
+.topic h2{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 61px;
+}
+
+.paragraph h4{
+    width: 365px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    border: none;
+    background: none;
+    color: white;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.right_side{
+    position: relative;
+}
+
+.image_holder img{
+    max-width: 821.11px;
+}
+
+.footer p{
+    color: #A9A9A9;
+    margin-top: 190px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.label_tag{
+    background-color: #181719;
+    position: absolute;
+    top: 85%;
+    right:29px;
+    padding-left: 26px;
+    padding-top: 15px;
+    width: 410px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25); ;
+
+}
+
+.name p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.profession{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    font-style: normal;
+    color: #828282;
+
+}
+
+.alias{
+    display: flex;
+}
+
+.alias img{
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.details{
+    margin-bottom: 26px;
+    width: 287px;
+    height:62px;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+
